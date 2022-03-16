@@ -1,5 +1,7 @@
 module TestPackage
 
-greet() = print("Hello World!")
+export plusTwo
 
-end # module
+plusTwo(x) = x + 2
+
+end
